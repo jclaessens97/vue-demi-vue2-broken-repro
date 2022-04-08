@@ -20,10 +20,11 @@ export default defineConfig({
       fileName: (format) => `lib.${format}.js`,
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue' /*', vue-demi'*/],
       output: {
         globals: {
           vue: 'Vue',
+          // 'vue-demi': 'VueDemi',
         },
       },
     },
