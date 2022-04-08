@@ -6,4 +6,4 @@ Start vue3:
 `cd vue3 && npm link lib && npm run dev`
 
 Start vue2:
-`cd vue3 && npm link lib && npm run serve`
+`cd vue2 && npm link lib && npm run serve`
