@@ -1,11 +1,13 @@
+<template>
+  <div>
+    <img alt="Vue logo" src="./assets/logo.png" />
+    <Counter />
+  </div>
+</template>
+
 <script setup lang="ts">
 import Counter from './components/Counter.vue';
 </script>
-
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <Counter />
-</template>
 
 <style>
 #app {
